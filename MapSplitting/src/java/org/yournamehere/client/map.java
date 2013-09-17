@@ -9,6 +9,7 @@ import com.google.gwt.core.client.GWT;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.FlowPanel;
+import com.google.gwt.user.client.ui.RootLayoutPanel;
 import java.util.LinkedList;
 import org.gwtopenmaps.openlayers.client.Bounds;
 import org.gwtopenmaps.openlayers.client.Icon;
@@ -199,7 +200,7 @@ mapWidget.setWidth("100%");
 mapWidget.setHeight("100%");
 
 
-        add(mapWidget);
+        RootLayoutPanel.get().add(mapWidget);
         map.addMapZoomListener(new MapZoomListener() {
             public void onMapZoom(MapZoomListener.MapZoomEvent eventObject) {
 
