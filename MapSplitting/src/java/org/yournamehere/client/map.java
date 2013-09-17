@@ -200,7 +200,7 @@ mapWidget.setWidth("100%");
 mapWidget.setHeight("100%");
 
 
-        RootLayoutPanel.get().add(mapWidget);
+        add(mapWidget);
         map.addMapZoomListener(new MapZoomListener() {
             public void onMapZoom(MapZoomListener.MapZoomEvent eventObject) {
 
