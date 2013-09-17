@@ -59,7 +59,7 @@ public class map extends FlowPanel {
         Geometry geo = toSplit.getGeometry();
         Geometry byeo = by.getGeometry();
        
-    convert the mutipolygone into a multilinestring...
+//    convert the mutipolygone into a multilinestring...
             MultiPolygon mp = MultiPolygon.narrowToMultiPolygon(toSplit.getJSObject());
             
             
@@ -72,7 +72,7 @@ public class map extends FlowPanel {
           split(byeo.getJSObject(),ls.getJSObject());
           
         //call the javascript method to split:
-          http://dev.openlayers.org/docs/files/OpenLayers/Geometry/MultiLineString-js.html
+          //http://dev.openlayers.org/docs/files/OpenLayers/Geometry/MultiLineString-js.html
         
        
        
