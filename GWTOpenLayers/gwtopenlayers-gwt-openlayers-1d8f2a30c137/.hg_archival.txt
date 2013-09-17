@@ -1,0 +1,5 @@
+repo: a93ded6c5c1819c88df2dcc12050ff62c13d86e2
+node: 1d8f2a30c13754ad0670269b423c2dd72ddf0e45
+branch: default
+latesttag: gwt-openlayers-0.8
+latesttagdistance: 154
